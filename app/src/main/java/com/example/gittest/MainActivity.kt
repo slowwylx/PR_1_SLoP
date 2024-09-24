@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             GitTestTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Remote changes applied",
+                        name = "new changes",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
